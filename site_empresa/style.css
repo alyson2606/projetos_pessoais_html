@@ -121,12 +121,13 @@ button {
 
 }
 
-a{
+main a{
     text-decoration: none;
     color: white;
+    width: auto;
 }
 
-button:hover{
+.avançar:hover{
     background-color: #000000e8;
 }
 
