@@ -118,6 +118,12 @@ button {
     border: none;
     margin-top: 30px;
     cursor: pointer;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
 
 button:hover{
@@ -133,6 +139,7 @@ button:hover{
     z-index: -2;
     background-color: #00000000;
 }
+
 
 @media screen and (max-width: 900px) {
     main {
@@ -167,4 +174,7 @@ button:hover{
         margin: 20px 0;
     }
     
+    a{
+        text-decoration: none;
+    }
 }
